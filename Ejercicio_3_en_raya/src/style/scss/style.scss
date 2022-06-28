@@ -1,0 +1,20 @@
+// *Colours Modification
+$primary: hsl(199, 34%, 14%); 
+$secondary: hsl(200, 35%, 18%);
+$success: hsl(178, 61%, 47%);
+$warning: hsl(39, 88%, 58%);
+$light: hsl(200, 23%, 72%);
+
+// *Fonts Modification
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+$font-family-sans-serif: Montserrat;
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.sha-sec {
+    box-shadow: 0px 6px darken($secondary,8%);
+}
+
+.sha-suc {
+    box-shadow: 0px 6px darken($light,15%);
+}
